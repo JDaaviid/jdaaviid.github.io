@@ -1,3 +1,8 @@
+//REFERENCIAS DE COSAS UTILIZADAS DE INTERNET:
+// MODELO 3D DEL COCHE: https://sketchfab.com/3d-models/low-poly-car-93971323324243468f24d7da9d18f617
+// MODELO 3D ROCA: https://sketchfab.com/3d-models/western-stylised-rock-24c821bbe0a1469ba66b9d5894546d9a
+
+
 var renderer, scene, camera, carModel, rockModel, plano_suelo, sphereRadius, lista_rocas, carModelBoundingBox, isColliding, tween_mundo, rocksBoundingBoxes, antes, tiempo_partida_text, juegoEmpezado, numRocas;
 
  function init(){
@@ -77,7 +82,6 @@ var renderer, scene, camera, carModel, rockModel, plano_suelo, sphereRadius, lis
     document.body.appendChild(boton_select_text);
 
 }
-
 
 function anadirLuces(){
    
